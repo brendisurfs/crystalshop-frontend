@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 
 function App() {
     return (
-        <div>
+        <div className="flex h-screen flex-grow">
             <h1>Home</h1>
         </div>
     );

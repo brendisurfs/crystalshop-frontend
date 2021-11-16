@@ -6,18 +6,20 @@ import App from "./App";
 import Layout from "./components/Layout";
 import Products from "./routes/Products";
 import About from "./routes/About";
+import { MoralisProvider } from "react-moralis";
 
 ReactDOM.render(
     <React.StrictMode>
+        {/* <MoralisProvider appId="xxxxx" serverUrl="xxxxx"> */}
         <BrowserRouter>
             <Layout>
                 <Routes>
-                    <Route path="/" element={<App />} />
-                    <Route path="products" element={<Products />} />
+                    <Route path="/" element={<Products />} />
                     <Route path="about" element={<About />} />
                 </Routes>
             </Layout>
         </BrowserRouter>
+        {/* </MoralisProvider> */}
     </React.StrictMode>,
     document.getElementById("root")
 );
