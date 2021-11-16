@@ -2,13 +2,16 @@ import React from "react";
 
 function Footer() {
     return (
-        <footer className="flex h-36 outline-black px-2  ">
+        <footer className="flex h-36 bg-black text-white font-thin px-2 py-2 align-center justify-evenly">
             <div className="col-auto">
-                <ul>
-                    <li>Contact</li>
-                    <li>About Gordon</li>
-                    <li>Terms And Condish</li>
-                </ul>
+                <p>Contact</p>
+                <p>About This Project</p>
+                <p>Terms (There are none)</p>
+            </div>
+            <div className="col-auto">
+                <p>contact</p>
+                <p>Related Projects</p>
+                <p>Contact Us</p>
             </div>
         </footer>
     );

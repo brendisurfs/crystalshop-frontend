@@ -2,16 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+.neu-shadow-btn {
+    border-radius: 4px;
+    background: linear-gradient(225deg, #cacaca, #f0f0f0);
+    box-shadow: -7px 7px 14px #c7c7c7, 7px -7px 14px #f9f9f9;
+}
+.neu-shadow-card {
+    background: #e0e0e0;
+    box-shadow: -15px 15px 30px #c7c7c7, 15px -15px 30px #f9f9f9;
+}
+
+html {
+    background: #e0e0e0;
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
 }
